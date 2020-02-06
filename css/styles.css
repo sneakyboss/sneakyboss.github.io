@@ -1,0 +1,145 @@
+@keyframes ulap1 {
+    0% {opacity: 100;
+    transform: translateX(10px);} 
+    100% {opacity: 0; transform: translateX(2000px);}
+
+}
+@keyframes ulap2 {
+    0% {opacity: 100;
+    transform: translate(1px);} 
+    100% {opacity: 0; transform: translateX(-2000px);}
+
+}
+@keyframes ulap3 {
+    0% {opacity: 100;
+    transform: translate(100px);} 
+    100% {opacity: 0; transform: translateX(-2000px);}
+
+}
+#cloud1 {
+    margin-top: 100px;
+    animation: ulap1 100s ease-out normal;
+    opacity: 0;
+
+}
+#cloud2 {
+    animation: ulap2 100s ease-out normal;
+    float: right;
+    opacity: 0;
+}
+#cloud3 {
+    position: relative;
+    animation: ulap3 100s ease-out normal;
+    left: 5%;
+    bottom: 100px;
+}
+#mountain1{
+    position: relative;
+    left: 30%;
+}
+#pic1{
+
+    margin-top: 20%;
+    position: relative;
+    left: 44%;
+    border: 3px solid lightskyblue;
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+}
+
+#header{
+    background-color: dodgerblue;
+
+}
+#content{
+    background: linear-gradient(to top, honeydew, dodgerblue);
+    margin-bottom: 100px;
+
+}
+.h-one{
+    text-align: center;
+    font-family: MM;
+    font-style: italic;
+    font-size: 60px; 
+}
+.h-two{
+    text-align: center;
+    font-family: MBI;
+    font-size: 4em;
+    
+}
+@font-face {
+    src:url(../fonts/Montserrat/Montserrat-Regular.ttf);
+    font-family: "MM";
+}
+@font-face {
+    src: url(../fonts/Montserrat/Montserrat-BoldItalic.ttf);
+    font-family: "MBI";
+}
+
+.intro{
+    text-align: center;
+    font-family: MM;
+    font-size: 30px;
+    font-style: italic;
+}
+.skills-title{
+    text-align: center;
+    font-family: MBI;
+    font-size: 30px;
+    font-weight: bold;
+    color: dodgerblue;
+}
+.skills-list{
+     text-align: center;
+    font-family: MBI;
+    font-size: 30px;
+    font-weight: bold;
+    
+    
+}
+li{
+    font-family: MM;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.me{
+    text-align: center;
+    font-family: MBI;
+    font-size: 30px;
+    font-weight: bold;
+    color: dodgerblue;
+}
+.me-list{
+    text-align: center;
+    font-family: MBI;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+   
+}
+.nav{
+    background-color: lightblue;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.nav p{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+   
+    
+}
+footer{
+     background: linear-gradient(to bottom, honeydew, dodgerblue);
+}
+.p-a{
+     font-size: 16px;
+    font-family: MM;
+}
